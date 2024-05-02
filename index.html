@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Code Compiler</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css">
+<link rel="stylesheet" href="style.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/mode/javascript/javascript.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/mode/xml/xml.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/mode/css/css.js"></script>
+
+</head>
+<body>
+<h1>Code Compiler</h1>
+<h2>JavaScript:</h2>
+<textarea id="javascript"></textarea>
+<h2>HTML:</h2>
+<textarea id="html"></textarea>
+<h2>CSS:</h2>
+<textarea id="css"></textarea>
+<button onclick="compileCode()">Compile</button>
+<h2>Result:</h2>
+<div id="result"></div>
+
+<script src="app.js"></script>
+</body>
+</html>
